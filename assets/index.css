@@ -1,0 +1,40 @@
+* {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	touch-action: none;
+	text-decoration: none;
+	user-select: none;
+}
+
+body {
+	background: url('../assets/background.jpg') no-repeat center/cover fixed;
+}
+
+#gameDiv {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -410px;
+	background: #362746;
+	border: 10px ridge #362746;
+	box-shadow: 0 0 100px 10px #362746;
+	border-radius: 20px;
+}
+
+#gameCanvas {
+	background-color: #362746;
+}
+
+.a a {
+	color: #333;
+	background: #ddd;
+	padding: 5px;
+	float: left;
+	font-size: 12px;
+}
+
+.a a:hover {
+	background: #ccc;
+}
